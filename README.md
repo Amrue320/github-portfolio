@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Amruthesh S P — Portfolio</title>
+  <title>Amruthesh SP — Portfolio</title>
 
-  <!-- Bootstrap 5 CSS -->
+  <!-- Bootstrap 5 CSS via CDN -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -16,7 +16,8 @@
   <style>
     :root { --accent: #0d6efd; }
     body { scroll-behavior: smooth; }
-    .hero { padding: 6rem 0 4rem; background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%); }
+    .navbar-brand { font-weight: 600; }
+    .hero { padding: 6rem 0 4rem; background: linear-gradient(180deg,#f8f9fa 0%,#ffffff 100%); }
     .tag { display:inline-block; padding:.25rem .5rem; border:1px solid #dee2e6; border-radius:999px; font-size:.85rem; margin:.25rem .25rem 0 0; }
     .project-card img { width:100%; height:180px; object-fit:cover; border-top-left-radius:.5rem; border-top-right-radius:.5rem; background:#f1f3f5; }
     .footer { border-top:1px solid #e9ecef; }
@@ -27,7 +28,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#top">Amruthesh S P</a>
+      <a class="navbar-brand" href="#top">Amruthesh SP</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
               aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,7 +38,7 @@
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -49,17 +50,17 @@
     <div class="container">
       <div class="row align-items-center g-4">
         <div class="col-12 col-lg-7">
-          <h1 class="display-5 fw-bold mb-3">Amruthesh S P</h1>
+          <h1 class="display-5 fw-bold mb-2">Amruthesh SP</h1>
           <p class="lead text-muted mb-3">
-            Java developer and data enthusiast building practical applications and clean, maintainable code.
+            MCA (pursuing) and BSc graduate with strong skills in Python and Java, building clean, practical software and learning continuously.
           </p>
           <div class="mb-4">
-            <span class="tag">Java</span>
             <span class="tag">Python</span>
+            <span class="tag">Java</span>
             <span class="tag">Django</span>
             <span class="tag">REST APIs</span>
-            <span class="tag">React</span>
             <span class="tag">SQL</span>
+            <span class="tag">Git/GitHub</span>
           </div>
           <a href="#projects" class="btn btn-primary me-2">View Projects</a>
           <a href="#contact" class="btn btn-outline-secondary">Contact</a>
@@ -67,14 +68,14 @@
         <div class="col-12 col-lg-5">
           <div class="card shadow-sm">
             <div class="card-body">
-              <h2 class="h5">Profile Summary</h2>
+              <h2 class="h5 mb-2">Profile Summary</h2>
               <p class="mb-2">
-                Passionate about building end‑to‑end apps, learning new stacks, and sharing knowledge through code and docs.
+                Focused on writing readable, maintainable code with an emphasis on problem‑solving, fundamentals, and real‑world application.
               </p>
               <ul class="mb-0">
-                <li>Hands‑on with full‑stack projects and API integrations</li>
-                <li>Focus on readability, testing, and version control</li>
-                <li>Open to collaborations and learning opportunities</li>
+                <li>Hands‑on with Python/Java projects and REST services</li>
+                <li>Comfortable with Git workflows and documentation</li>
+                <li>Open to internships, projects, and collaborations</li>
               </ul>
             </div>
           </div>
@@ -88,7 +89,7 @@
     <div class="container">
       <h2 class="h3 mb-3">About</h2>
       <p class="text-muted">
-        Developer interested in scalable backend services and intuitive UIs, with a growing portfolio of projects that prioritize clarity, performance, and user value.
+        Enthusiastic developer skilled in Python and Java, exploring backend development and data‑driven applications while pursuing MCA and applying BSc foundations to build reliable, user‑centric solutions.
       </p>
     </div>
   </section>
@@ -98,14 +99,14 @@
     <div class="container">
       <h2 class="h3 mb-3">Skills</h2>
       <div class="row g-3">
-        <div class="col-6 col-md-3"><div class="tag w-100 text-center">Java</div></div>
         <div class="col-6 col-md-3"><div class="tag w-100 text-center">Python</div></div>
+        <div class="col-6 col-md-3"><div class="tag w-100 text-center">Java</div></div>
         <div class="col-6 col-md-3"><div class="tag w-100 text-center">Django</div></div>
+        <div class="col-6 col-md-3"><div class="tag w-100 text-center">Flask</div></div>
         <div class="col-6 col-md-3"><div class="tag w-100 text-center">REST APIs</div></div>
-        <div class="col-6 col-md-3"><div class="tag w-100 text-center">React</div></div>
         <div class="col-6 col-md-3"><div class="tag w-100 text-center">SQL</div></div>
         <div class="col-6 col-md-3"><div class="tag w-100 text-center">Git/GitHub</div></div>
-        <div class="col-6 col-md-3"><div class="tag w-100 text-center">Docker</div></div>
+        <div class="col-6 col-md-3"><div class="tag w-100 text-center">HTML/CSS</div></div>
       </div>
     </div>
   </section>
@@ -120,13 +121,13 @@
           <div class="card h-100 shadow-sm project-card">
             <img src="https://via.placeholder.com/600x400" alt="Movie Recommendation App preview" />
             <div class="card-body d-flex flex-column">
-              <h3 class="h5">Movie Recommendation System</h3>
+              <h3 class="h5">Movie Recommendation App</h3>
               <p class="text-muted mb-2">
-                Single‑page frontend with Bootstrap and a Django/Python backend exposing a clean JSON API.
+                Single‑page frontend with Bootstrap calling a Python backend that returns JSON recommendations.
               </p>
               <div class="mb-3">
-                <span class="tag">Django</span>
                 <span class="tag">Python</span>
+                <span class="tag">Django/Flask</span>
                 <span class="tag">Bootstrap</span>
               </div>
               <div class="mt-auto">
@@ -139,11 +140,11 @@
         <!-- Project 2 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card h-100 shadow-sm project-card">
-            <img src="https://via.placeholder.com/600x400" alt="REST API Service preview" />
+            <img src="https://via.placeholder.com/600x400" alt="Java REST API preview" />
             <div class="card-body d-flex flex-column">
-              <h3 class="h5">REST API Service</h3>
+              <h3 class="h5">Java REST API Service</h3>
               <p class="text-muted mb-2">
-                JWT‑secured API for CRUD operations with robust validation, logging, and pagination.
+                CRUD API with validation and pagination, documented with clear endpoints and examples.
               </p>
               <div class="mb-3">
                 <span class="tag">Java</span>
@@ -160,19 +161,19 @@
         <!-- Project 3 -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card h-100 shadow-sm project-card">
-            <img src="https://via.placeholder.com/600x400" alt="Personal Portfolio preview" />
+            <img src="https://via.placeholder.com/600x400" alt="Algorithm Practice preview" />
             <div class="card-body d-flex flex-column">
-              <h3 class="h5">Personal Portfolio</h3>
+              <h3 class="h5">Algorithm Practice</h3>
               <p class="text-muted mb-2">
-                Responsive one‑page portfolio with accessible navigation and clean typography.
+                Python and Java exercises: arrays, strings, recursion, and common interview problems.
               </p>
               <div class="mb-3">
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">Bootstrap</span>
+                <span class="tag">Python</span>
+                <span class="tag">Java</span>
+                <span class="tag">DSA</span>
               </div>
               <div class="mt-auto">
-                <a href="#" class="btn btn-sm btn-outline-primary me-2">Live</a>
+                <a href="#" class="btn btn-sm btn-outline-primary me-2">Docs</a>
                 <a href="#" class="btn btn-sm btn-outline-secondary">Code</a>
               </div>
             </div>
@@ -182,19 +183,20 @@
     </div>
   </section>
 
-  <!-- Experience -->
-  <section id="experience" class="py-5 bg-light">
+  <!-- Education -->
+  <section id="education" class="py-5 bg-light">
     <div class="container">
-      <h2 class="h3 mb-3">Experience & Education</h2>
+      <h2 class="h3 mb-3">Education</h2>
       <div class="row g-4">
         <div class="col-12 col-lg-6">
           <div class="card h-100 shadow-sm">
             <div class="card-body">
-              <h3 class="h5">Experience</h3>
+              <h3 class="h5 mb-1">MCA (Pursuing)</h3>
+              <p class="text-muted mb-2">Coursework in software engineering, databases, and systems.</p>
               <ul class="mb-0">
-                <li>Full‑stack app development and integration</li>
-                <li>API design, testing, and documentation</li>
-                <li>Version control and CI‑driven workflows</li>
+                <li>Backend development with Python/Java</li>
+                <li>Data management and SQL</li>
+                <li>Team projects and presentations</li>
               </ul>
             </div>
           </div>
@@ -202,11 +204,12 @@
         <div class="col-12 col-lg-6">
           <div class="card h-100 shadow-sm">
             <div class="card-body">
-              <h3 class="h5">Education</h3>
+              <h3 class="h5 mb-1">BSc (Completed)</h3>
+              <p class="text-muted mb-2">Strong CS fundamentals and problem‑solving foundation.</p>
               <ul class="mb-0">
-                <li>Computer science fundamentals and software engineering</li>
-                <li>Self‑driven projects and continuous learning</li>
-                <li>Workshops and certifications (as applicable)</li>
+                <li>Programming principles and OOP</li>
+                <li>Data structures and algorithms</li>
+                <li>Software lifecycle and documentation</li>
               </ul>
             </div>
           </div>
@@ -219,7 +222,7 @@
   <section id="contact" class="py-5">
     <div class="container">
       <h2 class="h3 mb-3">Contact</h2>
-      <p class="text-muted">Open to opportunities in backend, full‑stack, or data‑oriented roles.</p>
+      <p class="text-muted">Open to internships, junior roles, and project collaborations.</p>
       <div class="d-flex flex-wrap align-items-center gap-2">
         <a href="mailto:your.email@example.com" class="btn btn-primary">Email</a>
         <a href="#" class="btn btn-outline-secondary">LinkedIn</a>
@@ -232,18 +235,14 @@
   <!-- Footer -->
   <footer class="footer py-4 bg-white">
     <div class="container text-center small text-muted">
-      © <span id="year"></span> Amruthesh S P — Built with Bootstrap 5
+      © <span id="year"></span> Amruthesh SP — Built with Bootstrap 5
     </div>
   </footer>
 
-  <!-- Bootstrap JS + Popper -->
+  <!-- Bootstrap JS Bundle (includes Popper) via CDN -->
   <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-zDaCecAbQ6D2nL9iE0zF8y3f2hM+qh1rXz9c9NEyP1b6lCw3m2s8KQH4z7G2h7Wf"
-    crossorigin="anonymous"></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-euWm2o2mTmkR0HSTnR3gN0iXTTz0rOqhQbGvRk0g7V3Q9I1YwHk3Nf2B7d8dQK8C"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
   <script>
@@ -251,3 +250,4 @@
   </script>
 </body>
 </html>
+
